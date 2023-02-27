@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1675227600,
+    "slug": "portfolio",
+    "title": "FrannyPack.dev\r",
+    "stack": "HTML, React, Markdown\r",
+    "ImgUrl": "/assets/imgs/Portfolio-logo.gif\r",
+    "content": "\r\n# Hello World\r\n\r\n## How are you?"
+  },
+  {
+    "id": 1672549200,
+    "slug": "pessimart",
+    "title": "Pessima Art Collective\r",
+    "stack": "PHP, CSS, HTML\r",
+    "ImgUrl": "/assets/imgs/Portfolio-Pessimart.png\r",
+    "content": "\r\n# Pessima Art Collective"
+  },
+  {
+    "id": 1669870800,
+    "slug": "andiepaints",
+    "title": "Andie Paints LLC\r",
+    "stack": "HTML, CSS, JavaScript, Bootstrap\r",
+    "ImgUrl": "/assets/imgs/Portfolio-AndiePaints.png\r",
+    "content": "\r\n# Andie Paints LLC"
+  },
+  {
+    "id": 1654056000,
+    "slug": "memorygame",
+    "title": "Scallop's Memory Game\r",
+    "stack": "HTML, CSS, JavaScript\r",
+    "ImgUrl": "/assets/imgs/Portfolio-MemoryGame.png\r",
+    "content": "No content given"
+  },
+  {
+    "id": 1492747200,
+    "slug": "vanillatymeservers",
+    "title": "Vanilla Tyme Servers\r",
+    "stack": "HTML, CSS, JavaScript, Bootstrap\r",
+    "ImgUrl": "/assets/imgs/Portfolio-VanillaTyme.png\r",
+    "content": "\r\n# Vanilla Tyme Servers"
+  }
+]

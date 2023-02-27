@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+@import url("https://fonts.cdnfonts.com/css/cascadia-code");
+
+* {
+  margin: 0;
+  padding: 0;
+  padding-left: 0px;
+  box-sizing: border-box;
+}
+#root {
+  width: 90%;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+a {
+  text-decoration: none;
+}
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Navigo", "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  background: #131417;
+  min-height: 100vh;
+  color: white;
+}
+.frontPage {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+.frontPage h1 {
+  font-size: 48px;
+}
+.top-right {
+  display: flex;
+}
+.heroImage {
+  position: absolute;
+  top: 250px;
+  left: -100px;
+}
+.heroImage img {
+  width: 485px;
+}
+
+@import url('bootstrap/dist/css/bootstrap.min.css');

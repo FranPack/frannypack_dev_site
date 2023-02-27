@@ -1,6 +1,5 @@
 import React from "react";
 import Twemoji from "react-twemoji";
-import Hero from "../img/undraw.svg";
 import { TypeAnimation } from "react-type-animation";
 import "./components.css";
 

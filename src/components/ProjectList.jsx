@@ -57,7 +57,7 @@ const ProjectList = () => {
       <div className="project-list">
         <div className="page-description">
           <h1 className="page-title">All Projects</h1>
-          <p className="page-summary">Here you can find the projects I have worked on including current ones. You can click on each project to view a brief explanation of the project and its purpose.</p>
+          <p className="page-summary">Here you can find the projects I have worked on including current ones. You can click on each project to view a brief explanation of the project and its purpose. <span style={{fontFamily: "Cascadia Code", fontWeight: "bold"}}>(Under Construction)</span></p>
         </div>
         {pList.length &&
           pList.map((project, i) => {

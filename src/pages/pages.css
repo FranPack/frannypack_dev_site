@@ -17,6 +17,7 @@ a {
   text-decoration: none;
 }
 body {
+  overflow-x: clip;
   position: relative;
   margin: 0;
   padding: 0;
@@ -33,6 +34,10 @@ body {
   justify-content: center;
   align-items: center;
   height: 70vh;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1440px;
+  /* width: 90%; */
 }
 .frontPage h1 {
   font-size: 48px;
@@ -46,7 +51,45 @@ body {
   left: -100px;
 }
 .heroImage img {
-  width: 485px;
+  max-width: 485px;
+  width: 100%;
+  height: auto
+}
+@media only screen and (max-width: 1270px) {
+  .frontPage h1 {
+  }
+  .heroImage {
+    top: 50vh;
+    left: -100px;
+    overflow: hidden;
+  }
+  .heroImage img {
+    width: 450px;
+    opacity: .75;
+  }
+}
+@media only screen and (max-width: 800px){
+  .frontPage {
+    height: 50vh;
+  }
+  .frontPage h1 {
+    font-size: 25px !important;
+  }
+  .frontPage .hello{
+    font-size: 25px;
+  }
+  .heroImage {
+    top: 50vh;
+    left: unset;
+    right: -100px;
+    overflow: hidden;
+  }
+  .heroImage img {
+    width: 300px;
+    opacity: .75;
+    transform: scaleX(-1);
+    overflow: hidden;
+  }
 }
 /** 404 Start **/
 .not-found-container {

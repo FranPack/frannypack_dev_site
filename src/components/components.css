@@ -41,6 +41,21 @@ nav {
   /* background-color: #252830; */
   /* border-radius: 10px; */
 }
+.hamburger-icon {
+  color: white;
+  font-size: 40px;
+}
+.mobile-nav {
+  display: none;
+}
+@media only screen and (max-width: 800px){
+  .nav {
+    display: none !important;
+  }
+  .mobile-nav {
+    display: flex;
+  }
+}
 .nav-link {
   display: block;
   position: relative;
@@ -100,6 +115,11 @@ nav {
   margin-left: auto;
   margin-right: auto;
   justify-content: center;
+}
+@media only screen and (max-width: 800px) {
+  .react-container {
+    justify-content: unset;
+  }
 }
 .credit {
   font-size: 18px;
@@ -175,5 +195,6 @@ nav {
 .markdown-logo {
   filter: invert(1);
 }
+
 /** Project List END */
 @import url('bootstrap/dist/css/bootstrap.min.css');

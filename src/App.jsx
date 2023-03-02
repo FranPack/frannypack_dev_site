@@ -8,18 +8,13 @@ import Error404 from './pages/Error404'
 
 function App() {
   return (
-    <>
       <Routes>
         <Route exact path="/" element={<Home />}/>
         <Route path="/projects" element={<Portfolio />}/>
         <Route exact path="/resume" element={<Resume />}/>
         <Route exact path="/projects/:projectslug" element={<Project/>}/>
         <Route exact path="/404" element={<Error404/>}/>
-        <Route path="*" element={<Error404/>}/>
       </Routes>
-    </>
-
-
   );
 }
 

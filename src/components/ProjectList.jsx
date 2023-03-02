@@ -57,7 +57,7 @@ const ProjectList = () => {
       <div className="project-list">
         <div className="page-description">
           <h1 className="page-title">All Projects</h1>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit sapiente aliquam aspernatur obcaecati pariatur recusandae nostrum molestias! Omnis, quidem dolorum! Maiores, quod soluta impedit itaque quo eos non eligendi repellendus?</p>
+          <p className="page-summary">Here you can find the projects I have worked on including current ones. You can click on each project to view a brief explanation of the project and its purpose.</p>
         </div>
         {pList.length &&
           pList.map((project, i) => {

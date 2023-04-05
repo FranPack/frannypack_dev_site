@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import Link  from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithub,
@@ -6,7 +6,6 @@ import {
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 import { faAt } from "@fortawesome/free-solid-svg-icons";
-import "./components.css";
 
 const Socials = () => {
   return (
@@ -19,13 +18,13 @@ const Socials = () => {
             </span>
           </div>
           <div className="socials">
-            <Link to="mailto:fmrivera30@ymail.com">
+            <Link href="mailto:fmrivera30@ymail.com">
               <FontAwesomeIcon icon={faAt} className="social-icon" />
             </Link>
-            <Link to="https://github.com/FranPack">
+            <Link href="https://github.com/FranPack">
               <FontAwesomeIcon icon={faGithub} className="social-icon" />
             </Link>
-            <Link to="https://www.linkedin.com/in/fran-rivera/">
+            <Link href="https://www.linkedin.com/in/fran-rivera/">
               <FontAwesomeIcon icon={faLinkedin} className="social-icon" />
             </Link>
           </div>

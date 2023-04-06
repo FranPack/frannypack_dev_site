@@ -30,9 +30,13 @@ code.hello {
   /* width: 90%; */
   /* max-width: 1440px; */
 }
+.nav li:not(:last-of-type) {
+  padding-right: 30px;
+}
 nav {
   display: flex;
   flex: 1;
+  justify-content: flex-end;
   margin-top: 0;
   /* margin-right: 70px; */
   margin-left: auto;
@@ -88,11 +92,8 @@ nav {
   display: block;
   position: relative;
   height: 27px;
-  /* margin-top: 26px;
-    margin-left: 0;
-    margin-right: 0; */
   margin: 15px 0;
-  padding: 0 70px 0 0;
+  /* padding: 0 70px 0 0; */
   line-height: 20px;
   letter-spacing: 0.2px;
   text-decoration: none;

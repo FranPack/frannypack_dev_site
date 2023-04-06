@@ -9,15 +9,22 @@ const Header = () => {
   return (
     <div className="nav-bar">
       <div className="nav-container">
-        <nav className="nav d-flex">
-          <div className="d-flex">
-            <Link className="nav-link" href="/projects">
-              Projects
-            </Link>
-            <Link className="nav-link" href="/resume">
-              Resume
-            </Link>
-          </div>
+        <Link className="nav-link logo" href="/">
+            <Image src={Logo} alt="Logo"/>
+        </Link>
+        <nav className="nav flex">
+          <ul className="flex">
+            <li>
+              <Link className="nav-link" href="/projects">
+                Projects
+              </Link>
+            </li>
+            <li>
+              <Link className="nav-link" href="/resume">
+                Resume
+              </Link>
+            </li>
+          </ul>
         </nav>
         <nav className="mobile-nav">
           <Link
@@ -42,9 +49,6 @@ const Header = () => {
             </li>
           </ul>
         </nav>
-        <Link className="nav-link logo" href="/">
-            <Image src={Logo} alt="Logo"/>
-        </Link>
       </div>
     </div>
   );

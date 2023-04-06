@@ -31,9 +31,10 @@ const Welcome = () => {
           />
           {/*{"/>"}*/}
         </code>
-        {", "} I&apos;m
+        {", "} 
+        <strong>I&apos;m</strong>
         <br />
-        <strong className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">Francisco Rivera</strong>.
+        <strong className="bg-gradient-to-r from-teal-400 to-yellow-200 bg-clip-text text-transparent">Francisco Rivera</strong>.
       </h1>
       <div style={{
         background: `url(${Me.src}) center center/cover no-repeat`,
